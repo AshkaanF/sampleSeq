@@ -8,7 +8,7 @@ This repository contains R scripts that recreate sampling models from our manusc
 To run simply:
 
 1. download this repository and set your working directory
-2. `source(sampleSeq.R)`
+2. `source('./R/util_func.R')`
 
 The function `sampleSeq()` takes parameter values as described in the manuscript. Evaluating `sampleSeq(100)` will perform 100 model simulations with the same parameter ranges as in the amnuscript. An example usage and visualization is:
 
