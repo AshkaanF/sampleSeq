@@ -1,16 +1,16 @@
 # Sampling model from 
 #### Daylight exposure modulates bacterial communities associated with household dust
-Fahimipour et al. *forthcoming*
+Fahimipour et al. (2018) doi: [10.1186/s40168-018-0559-4](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0559-4)
 
-This repository contains R scripts that recreate sampling models from our manuscript on the effects of light exposures on the dust microbiome.
+This repository contains R scripts that recreate sampling models from our manuscript on the experimental effects of light exposures on the dust microbiome.
 
 #### Instructions
-To run simply:
+To run:
 
 1. download this repository and set your working directory
 2. `source('./R/util_func.R')`
 
-The function `sampleSeq()` takes parameter values as described in the manuscript. Evaluating `sampleSeq(100)` will perform 100 model simulations with the same parameter ranges as in the amnuscript. An example usage and visualization is:
+The function `sampleSeq()` takes parameter values as described in the manuscript. Evaluating `sampleSeq(100)` will perform 100 model simulations with the same parameter ranges as in the manuscript. An example usage and visualization is:
 
 
 ```R
